@@ -1,0 +1,14 @@
+﻿{
+  "Name": "로그아웃",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "aiDkjY5K2026bthhbd5a7Q",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/aiDkjY5K2026bthhbd5a7Q",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/4Sy7QutXIUSpHfWsh0wnXQ",
+  "Created": "2025-09-19T05:39:09.0590796Z",
+  "Updated": "2025-09-19T05:39:09.0590796Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

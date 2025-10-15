@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a2QQ8xBZ-ESKSvKd-E6w6w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="global.windly.cc/view3/main" DesignTimeRectangle="9, 602, 248, 40" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;a&amp;gt;div&amp;gt;div' idx='2' parentid='root' tag='DIV' /&gt;" Guid="c63da4c1-a790-43a9-9704-0dc36b441946" ScopeSelectorArgument="&lt;html app='chrome.exe' title='윈들리 해구대' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6f72d3f32f11373292fd8dfbc92544ef.png" xmlns="">0IleOizWCc0W5tGm_wqsBKw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

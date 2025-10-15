@@ -1,0 +1,13 @@
+﻿{
+  "Name": "DIV",
+  "Type": "Element",
+  "Id": "_SOpV-_-VUO6428UysFRTA",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/_SOpV-_-VUO6428UysFRTA",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/sGDbQT5h50uQodCK-6tIyQ",
+  "Created": "2025-09-19T06:27:09.1769232Z",
+  "Updated": "2025-09-19T06:27:09.1769232Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

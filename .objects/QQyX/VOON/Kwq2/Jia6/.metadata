@@ -1,0 +1,14 @@
+﻿{
+  "Name": "판매가",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Jia68FdY7060BabBcy6c0g",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/Jia68FdY7060BabBcy6c0g",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/Kwq2XwEgEUOucg6LRYUdDw",
+  "Created": "2025-09-19T08:03:39.2584599Z",
+  "Updated": "2025-09-19T08:03:39.2584599Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sdlZQ2aUA02RFQWSciukyA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="global.windly.cc/view2/interested-product/233180543" DesignTimeRectangle="582, 361, 44, 32" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='옵션' tag='BUTTON' type='' class='sc-ccVCaX fNPOmR normal sc-efavWF hXWMGH' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='옵션' /&gt;" Guid="65f74410-e3a7-4f9e-b995-845e4f731552" ScopeSelectorArgument="&lt;html app='chrome.exe' title='윈들리' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="590, 368, 28, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='옵션' parentid='root' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='옵션' parentid='root' tag='SPAN' type='' class='sc-jnqLxu cgsNPx' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='옵션' /&gt;" Guid="6ab48044-ea55-4fb6-bcd0-364341c4899a" ImageBase64="" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e8068296f4ae71d8975c552fc5b6aea5.png" xmlns="">0S23c52AV_kanWaOSC_u93w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

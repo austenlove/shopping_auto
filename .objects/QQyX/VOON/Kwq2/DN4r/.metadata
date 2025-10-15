@@ -1,0 +1,14 @@
+﻿{
+  "Name": "옵션",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "DN4rBmdBhUehxDS8gTxtBw",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/DN4rBmdBhUehxDS8gTxtBw",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/Kwq2XwEgEUOucg6LRYUdDw",
+  "Created": "2025-09-19T07:05:04.3264156Z",
+  "Updated": "2025-09-19T07:05:04.3264156Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

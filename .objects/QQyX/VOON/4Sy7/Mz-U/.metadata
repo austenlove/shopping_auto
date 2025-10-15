@@ -1,0 +1,13 @@
+﻿{
+  "Name": "수집상품",
+  "Type": "Element",
+  "Id": "Mz-U8YUS8UKKAqgJcQYJkw",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/Mz-U8YUS8UKKAqgJcQYJkw",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/4Sy7QutXIUSpHfWsh0wnXQ",
+  "Created": "2025-09-19T06:21:39.314047Z",
+  "Updated": "2025-09-19T06:21:39.314047Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

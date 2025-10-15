@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hW5O0I2lxEO2DpzWJt4fDg" Reference="ICNqXF2OvEyZ765u2w4i8Q/jrV3zzBTnECo2_WvVZYRag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="hub.windly.cc/accounts/login" DesignTimeRectangle="760, 692, 10, 7" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;label&amp;gt;div&amp;gt;svg&amp;gt;path' parentid='root' tag='path' /&gt;" Guid="627bdfad-cd60-4739-abc1-b2eb927b9e20" ScopeSelectorArgument="&lt;html app='chrome.exe' title='윈들리 허브' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9240493492a1ff8f1a15a74ff23f7942.png" xmlns="">0J1T993c07kWHtLvf0Kk6YA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Otd5fRuTn0qFPDJOFaOASQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="global.windly.cc/view2/interested-product/233180543" DesignTimeRectangle="411, 542, 92, 33" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='윈들리' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' name='옵션 추가' role='push button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='옵션 추가' /&gt;" Guid="f702d6ce-ae13-4819-b6fb-d43636ddd133" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='윈들리 - Chrome' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="447, 551, 46, 15" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='윈들리' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='옵션 추가' role='push button' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='옵션 추가' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='옵션 추가' /&gt;" Guid="db6acb0e-9e15-4baf-a4cd-30874361076e" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="23eaf34be167c481436a1517cc8f6732.png" xmlns="">0ruC7c156fEiuJ-UFVDi7cA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

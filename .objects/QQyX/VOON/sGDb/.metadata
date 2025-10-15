@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome 윈들리 해구대",
+  "Type": "Screen",
+  "Id": "sGDbQT5h50uQodCK-6tIyQ",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/sGDbQT5h50uQodCK-6tIyQ",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/VOONgbIFIkGYkH32ppDpBw",
+  "Created": "2025-09-19T06:26:52.3619854Z",
+  "Updated": "2025-09-19T06:26:52.3619854Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

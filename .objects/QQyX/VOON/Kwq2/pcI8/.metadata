@@ -1,0 +1,14 @@
+﻿{
+  "Name": "기본 정보",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "pcI8-x8i_0W65x6tYAxBwA",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/pcI8-x8i_0W65x6tYAxBwA",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/Kwq2XwEgEUOucg6LRYUdDw",
+  "Created": "2025-09-19T06:48:50.8963136Z",
+  "Updated": "2025-09-19T06:48:50.8963136Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

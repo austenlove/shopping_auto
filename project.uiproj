@@ -1,0 +1,6 @@
+{
+  "Name": "샤토루_상품등록_자동화",
+  "ProjectType": "Process",
+  "Description": "샤토루 상품등록 자동화",
+  "MainFile": "Main.xaml"
+}

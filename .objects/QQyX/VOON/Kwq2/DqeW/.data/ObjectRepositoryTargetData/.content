@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ip5ILBiE20qqq-C5b5-zFw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="global.windly.cc/view2/interested-product/233180543" DesignTimeRectangle="30, 205, 330, 40" FullSelectorArgument="&lt;ctrl name='Google 렌즈로 검색' role='menu item' /&gt;" Guid="ef815fc8-e2e9-43af-b732-ace750b4f50f" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6316abda2e7b6449927ccc793a119e66.png" xmlns="">00gGItGU-xkm7RGv0s7Jw_A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

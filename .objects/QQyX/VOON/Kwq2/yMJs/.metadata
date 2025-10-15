@@ -1,0 +1,14 @@
+﻿{
+  "Name": "定金总价318（商品运费到付，定金须先确认收货…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "yMJs_HI6Gk69emeLybFxyw",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/yMJs_HI6Gk69emeLybFxyw",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/Kwq2XwEgEUOucg6LRYUdDw",
+  "Created": "2025-09-19T07:06:16.9901765Z",
+  "Updated": "2025-09-19T07:06:16.9901765Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

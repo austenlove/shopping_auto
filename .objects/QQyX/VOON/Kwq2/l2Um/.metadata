@@ -1,0 +1,14 @@
+﻿{
+  "Name": "옵션 추가",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "l2UmHKeY4E6zDVGOmwubMg",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/l2UmHKeY4E6zDVGOmwubMg",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/Kwq2XwEgEUOucg6LRYUdDw",
+  "Created": "2025-09-19T08:00:13.178179Z",
+  "Updated": "2025-09-19T08:00:13.178179Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

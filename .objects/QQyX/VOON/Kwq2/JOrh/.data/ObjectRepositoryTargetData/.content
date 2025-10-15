@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wu5VX2Ln0USAc9YOoD7luw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="global.windly.cc/view2/interested-product/233180543" DesignTimeRectangle="413, 700, 789, 23" ElementType="InputBox" FuzzySelectorArgument="&lt;ctrl name='윈들리' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' name='옵션명을 입력하세요' role='editable text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;" Guid="b28716e9-9e66-42e4-aaf9-26711363679f" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='윈들리 - Chrome' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="349, 698, 18, 25" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='윈들리' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' name='✓' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='✓' /&gt;" Guid="37f3ec32-876c-4eab-a64f-7a6364ec7011" SearchSteps="FuzzySelector" />
+          <Target DesignTimeRectangle="377, 491, 893, 23" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='윈들리' role='document' /&gt;&lt;ctrl idx='15' role='editable text' /&gt;" Guid="36ebc6cb-7125-48dd-a302-adc8bd176c58" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="abea33517adcd6f836c78cecb76520db.png" xmlns="">02G8x66Kf0EqbakF0TI3hOg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "레이블",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "jESuUrlV5kKJFVUrnm1dlg",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/jESuUrlV5kKJFVUrnm1dlg",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/4Sy7QutXIUSpHfWsh0wnXQ",
+  "Created": "2025-10-15T05:21:36.1773588Z",
+  "Updated": "2025-10-15T05:21:36.1773588Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

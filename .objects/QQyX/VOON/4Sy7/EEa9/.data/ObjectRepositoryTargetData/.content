@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6HPE8HEScUebXZYQo-KNnA" Reference="ICNqXF2OvEyZ765u2w4i8Q/EEa9b4j6UUaTQZzBvgDkbA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="hub.windly.cc/accounts/login" DesignTimeRectangle="770, 545, 363, 45" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" Guid="b61a1ecf-3c85-4802-a2c5-17b6a3b35b55" ScopeSelectorArgument="&lt;html app='chrome.exe' title='윈들리 허브' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="cbb21bf522ca8c5499137b1c349fe206.png" xmlns="">0oemqKQ6XFEamwKo8CJyIKg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

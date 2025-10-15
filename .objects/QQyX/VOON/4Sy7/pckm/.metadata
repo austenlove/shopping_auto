@@ -1,0 +1,13 @@
+﻿{
+  "Name": "email(1)",
+  "Type": "Element",
+  "Id": "pckmHodQo0GuVI98F6FnQg",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/pckmHodQo0GuVI98F6FnQg",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/4Sy7QutXIUSpHfWsh0wnXQ",
+  "Created": "2025-09-19T05:38:41.7851316Z",
+  "Updated": "2025-09-19T05:38:41.7851316Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

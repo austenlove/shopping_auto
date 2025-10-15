@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="x0CeFJBf8kOx78EnLRPmEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="global.windly.cc/view2/interested-product/233180543" DesignTimeRectangle="522, 361, 58, 32" ElementType="Button" FullSelectorArgument="&lt;ctrl name='윈들리' role='document' /&gt;&lt;ctrl name='판매가' role='push button' /&gt;" Guid="eea91050-4b95-44fe-96a6-58a9074f94f3" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='윈들리 - Chrome' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4d0f6e04b7cdcaf661dcda27948ca751.png" xmlns="">0_wXpyTw7906yw8fcyF5tqg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
