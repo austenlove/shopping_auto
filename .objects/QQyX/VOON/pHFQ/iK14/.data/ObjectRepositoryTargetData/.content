@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="7DzgCVnwLU2UV-hr3IfOmw" Reference="ICNqXF2OvEyZ765u2w4i8Q/iK14JIiak0WgeYjPInjEEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="DP22nF0Yp0aiLHWcbIkX5Q" Reference="ICNqXF2OvEyZ765u2w4i8Q/iK14JIiak0WgeYjPInjEEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="global.windly.cc/view2/interested-product" DesignTimeRectangle="629, 678, 201, 48" FuzzySelectorArgument="&lt;webctrl parentid='root' tag='SPAN' type='' class='css-10abh7p ej8pw3r11' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="67ffe834-570e-409e-8e5e-9ca1168d1a9a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='윈들리' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="b3e1692f65dc75138a2d948e1dcef9f0.png" xmlns="">0y46mFk9ctUCkm4GD7Kq3aQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="global.windly.cc/view2/interested-product" DesignTimeRectangle="176, 678, 201, 48" FuzzySelectorArgument="&lt;webctrl parentid='root' tag='SPAN' type='' class='css-10abh7p ej8pw3r11' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="5a95c73f-4793-483c-bdb3-4e512bc2581c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='윈들리' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3d56650b4ada5d66c36a5e5b8db8cab6.png" xmlns="">0O9tXxotKbEm8w5hjMkEE6A</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">GetText</x:String>
   </ObjectRepositoryTargetData.Data>
