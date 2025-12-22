@@ -122,18 +122,18 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="_03_title" sap:VirtualizedContainerService.HintSize="774,1449.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="_03_title" sap:VirtualizedContainerService.HintSize="774,2474.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="02_page_info - Invoke Workflow File (Jobs\02_page_info.xaml)" sap:VirtualizedContainerService.HintSize="548.8,180.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Jobs\02_page_info.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="02_page_info - Invoke Workflow File (Jobs\02_page_info.xaml)" sap:VirtualizedContainerService.HintSize="616,180.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Jobs\02_page_info.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dt_transaction">[io_dt_transaction]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="상품명 수정" DataTable="[io_dt_transaction]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="548.8,220" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_2">
+    <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="상품명 수정" DataTable="[io_dt_transaction]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="616,220" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -141,21 +141,21 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:AddDataColumn>
-    <If Condition="[io_dt_transaction.RowCount = 20]" sap:VirtualizedContainerService.HintSize="548.8,1025.6" sap2010:WorkflowViewState.IdRef="If_1">
+    <If Condition="[io_dt_transaction.RowCount = 20]" sap:VirtualizedContainerService.HintSize="616,2050.4" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="547.2,662.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="614.4,1687.2" sap2010:WorkflowViewState.IdRef="Sequence_6">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[io_dt_transaction]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="513.6,455.2" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[io_dt_transaction]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="580.8,1480" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
             <ui:ForEachRow.Body>
               <ActivityAction x:TypeArguments="sd:DataRow">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="본문" sap:VirtualizedContainerService.HintSize="512,269.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <Sequence DisplayName="본문" sap:VirtualizedContainerService.HintSize="579.2,1294.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="str_url" />
                   </Sequence.Variables>
@@ -164,7 +164,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,153.6" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+                  <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="545.6,153.6" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
                     <ui:MultipleAssign.AssignOperations>
                       <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                         <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
@@ -178,7 +178,7 @@
                       </scg:List>
                     </ui:MultipleAssign.AssignOperations>
                   </ui:MultipleAssign>
-                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome 윈들리 해구대(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="478.4,52" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="31b4d14b-c847-4984-86b9-cc261dea05f8" Timeout="3600000" Version="V2" WindowResize="Maximize">
+                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome 윈들리 해구대(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="545.6,1076.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="31b4d14b-c847-4984-86b9-cc261dea05f8" Timeout="3600000" Version="V2" WindowResize="Maximize">
                     <uix:NApplicationCard.Body>
                       <ActivityAction x:TypeArguments="x:Object">
                         <ActivityAction.Argument>
@@ -215,7 +215,7 @@
                                     <OutArgument x:TypeArguments="x:String">[str_title]</OutArgument>
                                   </ui:AssignOperation.To>
                                   <ui:AssignOperation.Value>
-                                    <InArgument x:TypeArguments="x:String">[str_title.Replace("GK", "").Replace("동상", "").Replace("한정판", "").Replace("스태츄", "").Replace("모델", "").Replace("피규어", "레진 피규어").Replace("공장", "").Replace("[", "[[").Replace("]", "]]").Trim]</InArgument>
+                                    <InArgument x:TypeArguments="x:String">[str_title.Replace("GK", "").Replace("동상", "").Replace("한정판", "").Replace("스태츄", "").Replace("모델", "").Replace("피규어", "레진 피규어").Replace("공장", "").Replace("에디션", "").Replace("[", "[[").Replace("]", "]]").Trim]</InArgument>
                                   </ui:AssignOperation.Value>
                                 </ui:AssignOperation>
                                 <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
@@ -243,7 +243,7 @@
                     </uix:NApplicationCard.TargetApp>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
@@ -258,17 +258,17 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:ForEachRow>
-          <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="False" DataTable="[io_dt_transaction]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="513.6,143.2" sap2010:WorkflowViewState.IdRef="WriteRange_3" SheetName="[Now.ToString(&quot;MM-dd&quot;)]" WorkbookPath="C:\Users\dhkim\OneDrive\바탕 화면\문서\UiPath\shopping_auto\Data\Output\result.xlsx" />
+          <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[io_dt_transaction]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="580.8,143.2" sap2010:WorkflowViewState.IdRef="WriteRange_3" SheetName="[Now.ToString(&quot;MM-dd&quot;)]" WorkbookPath="C:\Users\dhkim\OneDrive\바탕 화면\문서\UiPath\shopping_auto\Data\Output\result.xlsx" />
         </Sequence>
       </If.Then>
       <If.Else>
-        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="547.2,233.6" sap2010:WorkflowViewState.IdRef="Sequence_7">
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="614.4,233.6" sap2010:WorkflowViewState.IdRef="Sequence_7">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="513.6,169.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error" Message="[String.Format(&quot;page info 수행 실패 : 수집 건수 총 {0}개&quot;, io_dt_transaction.RowCount.ToString)]" />
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="580.8,169.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error" Message="[String.Format(&quot;page info 수행 실패 : 수집 건수 총 {0}개&quot;, io_dt_transaction.RowCount.ToString)]" />
         </Sequence>
       </If.Else>
     </If>
