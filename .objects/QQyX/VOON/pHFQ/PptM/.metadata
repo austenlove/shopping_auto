@@ -1,0 +1,14 @@
+﻿{
+  "Name": "[공장 직접]추위에 민감한 가부몬, AN.…(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "PptMP58aeUy9Zlqgjy1unQ",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/PptMP58aeUy9Zlqgjy1unQ",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/pHFQiL5iekyFV6j_4_HnHw",
+  "Created": "2025-12-22T04:57:37.5334698Z",
+  "Updated": "2025-12-22T04:57:37.5334698Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
