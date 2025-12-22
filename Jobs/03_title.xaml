@@ -215,7 +215,7 @@
                                     <OutArgument x:TypeArguments="x:String">[str_title]</OutArgument>
                                   </ui:AssignOperation.To>
                                   <ui:AssignOperation.Value>
-                                    <InArgument x:TypeArguments="x:String">[str_title.Replace("GK", "").Replace("동상", "").Replace("한정판", "").Replace("스태츄", "").Replace("모델", "").Replace("피규어", "레진 피규어").Replace("공장", "").Replace("에디션", "").Replace("[", "[[").Replace("]", "]]").Trim]</InArgument>
+                                    <InArgument x:TypeArguments="x:String">[str_title.Replace("GK", "").Replace("동상", "").Replace("한정판", "").Replace("스태츄", "").Replace("조각상", "").Replace("모델", "").Replace("피규어", "레진 피규어").Replace("공장", "").Replace("에디션", "").Replace(",", "").Replace("[", "[[").Replace("]", "]]").Trim]</InArgument>
                                   </ui:AssignOperation.Value>
                                 </ui:AssignOperation>
                                 <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
@@ -229,7 +229,7 @@
                               </scg:List>
                             </ui:MultipleAssign.AssignOperations>
                           </ui:MultipleAssign>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into - 제목 수정" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="31b4d14b-c847-4984-86b9-cc261dea05f8" Text="[str_title]" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into - 제목 수정" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="31b4d14b-c847-4984-86b9-cc261dea05f8" Text="[CurrentRow(&quot;상품명 수정&quot;).ToString.Trim]" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="global.windly.cc/view2/interested-product/234048233" ContentHash="Lljk_ovtBkiB6jzMg4zBVQ" DesignTimeRectangle="722, 583, 964, 22" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' tag='INPUT' type='text' /&gt;" Guid="5fecbb5c-4d79-4d35-903c-cde2e512a061" InformativeScreenshot="936e669e8852378089dfddf361792dbd.png" Reference="ICNqXF2OvEyZ765u2w4i8Q/PptMP58aeUy9Zlqgjy1unQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='윈들리' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                             </uix:NTypeInto.Target>
