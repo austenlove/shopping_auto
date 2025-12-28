@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome 윈들리(2)",
+  "Type": "Screen",
+  "Id": "NEfsKgZCsE6fnXT7jR8ddA",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/NEfsKgZCsE6fnXT7jR8ddA",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/VOONgbIFIkGYkH32ppDpBw",
+  "Created": "2025-12-28T06:17:37.4063285Z",
+  "Updated": "2025-12-28T06:17:37.4063285Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

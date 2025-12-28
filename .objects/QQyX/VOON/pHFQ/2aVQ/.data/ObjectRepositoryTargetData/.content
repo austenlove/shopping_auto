@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1EAkANtei0W8CpxyBebWpg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="global.windly.cc/view2/interested-product/234047415" DesignTimeRectangle="392, 677, 1205, 24" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='sortable-option-21433_0' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='sortable-option-21433_0' tag='INPUT' type='text' class='option_input_21433:34566317900 css-23fa9p e7pwzwn2' placeholder='옵션명을 입력하세요' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="e00091d0-6914-430e-82b0-1642a1c5e196" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='윈들리' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="298, 509, 1382, 25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' value='크기' /&gt;" Guid="23bd6283-88ef-4f82-a23e-1cc6d43e1129" ImageBase64="" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="82cca402e96bf7554822cd9fdd3c7b14.png" xmlns="">02vAIXiNAAEKRiE4IwPmvAA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

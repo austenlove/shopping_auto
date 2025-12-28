@@ -1,0 +1,14 @@
+﻿{
+  "Name": "[26년 3분기 예약] DREAM MAKE…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "9vxjP4Wm6UG4BQoSHhu1tg",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/9vxjP4Wm6UG4BQoSHhu1tg",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/NEfsKgZCsE6fnXT7jR8ddA",
+  "Created": "2025-12-28T06:18:14.0124463Z",
+  "Updated": "2025-12-28T06:18:14.0124463Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

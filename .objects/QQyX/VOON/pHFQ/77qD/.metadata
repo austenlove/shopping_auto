@@ -1,0 +1,13 @@
+﻿{
+  "Name": "전체 옵션설정임시 그룹명 사용옵션이미지를 …",
+  "Type": "Element",
+  "Id": "77qDB8gJ1EKuPEO9Tuw32A",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/77qDB8gJ1EKuPEO9Tuw32A",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/pHFQiL5iekyFV6j_4_HnHw",
+  "Created": "2025-12-27T10:23:19.6894549Z",
+  "Updated": "2025-12-27T10:23:19.6894549Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

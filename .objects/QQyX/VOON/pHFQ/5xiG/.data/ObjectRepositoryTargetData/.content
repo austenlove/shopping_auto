@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mwYh6zspVUSZ9tcYSpGzcw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="global.windly.cc/view2/interested-product/234047415" DesignTimeRectangle="439, 314, 31, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='옵션' parentid='root' tag='SPAN' /&gt;" Guid="17f99565-2e2d-4608-8e2c-40a2c5a1d721" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='윈들리' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3ffad049251b8c6f5622fcdc78df39e1.png" xmlns="">0zB14oUaSXkqVrAdN9NWEmw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

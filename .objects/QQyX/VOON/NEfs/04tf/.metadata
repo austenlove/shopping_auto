@@ -1,0 +1,14 @@
+﻿{
+  "Name": "상품 속성",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "04tfn6ko5E2diB6zJWzKwQ",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/04tfn6ko5E2diB6zJWzKwQ",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/NEfsKgZCsE6fnXT7jR8ddA",
+  "Created": "2025-12-28T06:20:59.3125758Z",
+  "Updated": "2025-12-28T06:20:59.3125758Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
