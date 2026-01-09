@@ -1,5 +1,6 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="_04_attribute" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
+    <x:Property Name="in_str_page" Type="InArgument(x:String)" />
     <x:Property Name="io_dt_transaction" Type="InOutArgument(sd:DataTable)" />
   </x:Members>
   <VisualBasic.Settings>
@@ -111,7 +112,7 @@
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="_04_attribute" sap:VirtualizedContainerService.HintSize="768.4000000000001,2477.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="_04_attribute" sap:VirtualizedContainerService.HintSize="774,2126.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="str_page" />
     </Sequence.Variables>
@@ -120,33 +121,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="580.8,149.6" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
-      <ui:MultipleAssign.AssignOperations>
-        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
-          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
-            <ui:AssignOperation.To>
-              <OutArgument x:TypeArguments="x:String">[str_page]</OutArgument>
-            </ui:AssignOperation.To>
-            <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:String">https://global.windly.cc/view2/interested-product?page=7</InArgument>
-            </ui:AssignOperation.Value>
-          </ui:AssignOperation>
-        </scg:List>
-      </ui:MultipleAssign.AssignOperations>
-    </ui:MultipleAssign>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="02_page_info - Invoke Workflow File (Jobs\02_page_info.xaml)" sap:VirtualizedContainerService.HintSize="580.8,180.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Jobs\02_page_info.xaml">
-      <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_str_page">[str_page]</InArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dt_transaction">[io_dt_transaction]</OutArgument>
-      </ui:InvokeWorkflowFile.Arguments>
-    </ui:InvokeWorkflowFile>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome 윈들리(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="580.8,2124" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="7d624e03-5438-4c15-8b8d-799a23cbed56" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome 윈들리(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="580.8,2103.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="7d624e03-5438-4c15-8b8d-799a23cbed56" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="547.2,1840" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="547.2,1859.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="str_title" />
               <Variable x:TypeArguments="x:String" Name="str_studio" />
@@ -157,20 +138,20 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[io_dt_transaction]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="513.6,1780" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[io_dt_transaction]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="513.6,1793.6" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="본문" sap:VirtualizedContainerService.HintSize="512,1607.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence DisplayName="본문" sap:VirtualizedContainerService.HintSize="512,1615.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                     <uix:NGoToUrl DisplayName="Go To URL - " sap:VirtualizedContainerService.HintSize="478.4,118.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[CurrentRow(&quot;상품url&quot;).ToString.Trim]" Version="V5" />
-                    <uix:NGetText DisplayName="Get Text - title" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,189.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="7d624e03-5438-4c15-8b8d-799a23cbed56" TextString="[str_title]" Version="V5">
+                    <uix:NGetText DisplayName="Get Text - title" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,193.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="7d624e03-5438-4c15-8b8d-799a23cbed56" TextString="[str_title]" Version="V5">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable BrowserURL="global.windly.cc/view2/interested-product/234047394" ContentHash="dSs_yZi80UeGxjlGAGewjQ" DesignTimeRectangle="552, 489, 1178, 25" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='7' parentid='root' tag='DIV' /&gt;" Guid="4cbecbd9-5cf4-4d45-8dbe-cfa90381c83a" InformativeScreenshot="797a9c5b8a1e10cea874d64d59445f73.png" Reference="ICNqXF2OvEyZ765u2w4i8Q/9vxjP4Wm6UG4BQoSHhu1tg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='윈들리' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                       </uix:NGetText.Target>
@@ -207,7 +188,7 @@
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="global.windly.cc/view2/interested-product/234047403" ContentHash="gwP6XrQ08U6wisJqys_cHQ" DesignTimeRectangle="748, 452, 477, 24" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='css-23fa9p e7pwzwn2' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fe3604b2-a641-4caa-95bb-7eb77259da03" ImageBase64="" InformativeScreenshot="a529742ba33d03d1226039f5a43b8a8d.png" Reference="ICNqXF2OvEyZ765u2w4i8Q/BCWqps1b7kmiWqkfC13iMA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='윈들리' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="734, 412, 535, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='제조사' parentid='root' tag='DIV' type='' class='e189aj9n6 css-193hfj8 ex82sv80' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='제조사' /&gt;" Guid="9cca95d6-0f9b-4a10-871b-116281edab01" SearchSteps="FuzzySelector" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -218,7 +199,7 @@
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="global.windly.cc/view2/interested-product/234047403" ContentHash="AgTp4Iy09U2xc9iXz0x0OA" DesignTimeRectangle="196, 544, 476, 24" ElementType="InputBox" FullSelectorArgument="&lt;webctrl idx='2' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl class='css-23fa9p e7pwzwn2' tag='INPUT' type='text' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fe8d1afc-de0b-46a1-a178-19befb7e10a4" ImageBase64="" InformativeScreenshot="80da32bd45f0649b9304df19067a4c67.png" Reference="ICNqXF2OvEyZ765u2w4i8Q/z70F3RUBjEet_CskRVKXtg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='윈들리' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="181, 504, 535, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='브랜드' parentid='root' tag='DIV' type='' class='e189aj9n6 css-193hfj8 ex82sv80' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='브랜드' /&gt;" Guid="b4a351bb-2df2-4158-9392-d2ee8c535102" SearchSteps="FuzzySelector" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -244,7 +225,7 @@
         </ActivityAction>
       </uix:NApplicationCard.Body>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="FlZlCdUFGke3377wxtmHmQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAEMAAABDCAYAAADHyrhzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAALiIAAC4iAari3ZIAAARzSURBVHhe5ZypbhxBEIb9CH4EP4LRYEt5gPgBAgwDTcJHQUGRYaSQhYYGAYEbFhLJ0AoyS6ClgLGdY6N/1D3q/bu7qi8fO1PSR3qnZ6f+ruprjr3NZrPXiq4fjrp+OO76oTesDZddP2wKuXHOc+GcG/91wNdQg1eQStcPh10/nJoLvA448ZhAqLOuH05qBPIKJEyrr0xr8QU9JxCJEOeQfZDwCpiuH/ZNWD5165eCqDlhv0J4BSQEIuG5R0EqEEWMFK/AEQLpwCfcddCw0SjxCmYshMsx+xwUw6QGV54biJB99p2FQGc5lz5CY6WJgVGDK82ZrTkJi7GUqLBsRYcrxBL6CuYmJsbcR5AY08iy5BSxTKlihcCiiw9aCtcsBlaffNCSGEcVKwaW4XzAkhj7DSvGrq5IW9G7YvCPS2M9imG2z/jHpTF2okWTrderuyCvPtx5x8Z48e7Wq2/hYyW4bul5rBhZ65H3n3+jYtTOv/7x6jAQ4sfNP6462bfrv16dEDhOsjfn914dgUOIgb1C/iHK24t7/k/P4CzXyz2HFmX4XbPM6DiCGNgO4x+iwFHN4CzXc/lyJbcoDBHI9Vy0CP11u/HqKBxniwG+/4yHOOzTpZwquFDN8B9cr+U1BOghRvYNnppWQR6n2suzcLqhXLPM/gKMYnChSs3FoMVSLZYqNY0hUCYGKA1TaRRhQ9/C9YE2isTqKayLxcAQKlmodVJGADYemVp04BHKxUhxjIfHj2s5vEPGjqUMyyxgIuViAC3keQKmpVbION20YbkwRUCdGFqqQCx7bEqnGzI33R4wRUCdGJjhaWZTRRsBJLMjU8qwHBuOE6gTA2gTKPQTOE4Lb8lsumnDsjZRU6gXI+UCtfDW+hKbbprwsXlJIvVipISuNorACS1ytHPAKlIE1IsBNNNaFE6kDJmSVaYIaCOG1qqSWSe0VNKMh/EC2ohR06q2gwU1ovIEr4A2YtS0qutEqajufKaCVRMxQEmrshOlojZIETCuWrM3d0KUTKpCTmjDbMgapAhoJ0bJdDvkRK6oodVxIaMYzW4t5rRqzIlcUXkhV8G4IZx1q0Aip1UlJ3JEje2oFdBWjJQ9DmuSE6mixqKrkH2I0fT2orbHAdOcSE0VKbpysXfUmj6oou1xwFKcSEmVir0L5vJB7sKnpEqKEykLs8LtvRAXrhjZ904kpFRBiqQ4oYlasb0XYuv5jKZP+kl32HOW2TiW65fcYU/gyBUDb/DwAUtifI7cinEQOGApjJ3nJIYRZKnPdY39BYuR9ZzGjJjeTnLFaDrf2BGmB2K3xDCCNFnB7hCnkhhLGlW8t5G2xFhYdEwdpyQG+o65v2EwDaeiGEaQOaeLlx6iGEaQOb3ga8EaLCiEKIYRBG8zNl23PBFoVK+PYLyCEGa6vgsfBGAwq8a7NNFocPEKNJwvJTzX6TtSAVuZ4nvvIbyCHEzE2I+HYEh+bIHwn2iY8eMifH25eAUtMCLxV1YAbkvYr6SkYB11v6YCksI+l/8F/wViNzEI/AAAAABJRU5ErkJggg==" InformativeScreenshot="0ee85aee813b8297dc72eb3db1901ad8.jpg" Reference="ICNqXF2OvEyZ765u2w4i8Q/NEfsKgZCsE6fnXT7jR8ddA" Selector="&lt;html app='chrome.exe' title='윈들리' /&gt;" Url="https://global.windly.cc/view2/interested-product?page=7" Version="V2" />
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="K_kV_j2GaEKWmPyWpdLEKw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAEMAAABDCAYAAADHyrhzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAALiIAAC4iAari3ZIAAARzSURBVHhe5ZypbhxBEIb9CH4EP4LRYEt5gPgBAgwDTcJHQUGRYaSQhYYGAYEbFhLJ0AoyS6ClgLGdY6N/1D3q/bu7qi8fO1PSR3qnZ6f+ruprjr3NZrPXiq4fjrp+OO76oTesDZddP2wKuXHOc+GcG/91wNdQg1eQStcPh10/nJoLvA448ZhAqLOuH05qBPIKJEyrr0xr8QU9JxCJEOeQfZDwCpiuH/ZNWD5165eCqDlhv0J4BSQEIuG5R0EqEEWMFK/AEQLpwCfcddCw0SjxCmYshMsx+xwUw6QGV54biJB99p2FQGc5lz5CY6WJgVGDK82ZrTkJi7GUqLBsRYcrxBL6CuYmJsbcR5AY08iy5BSxTKlihcCiiw9aCtcsBlaffNCSGEcVKwaW4XzAkhj7DSvGrq5IW9G7YvCPS2M9imG2z/jHpTF2okWTrderuyCvPtx5x8Z48e7Wq2/hYyW4bul5rBhZ65H3n3+jYtTOv/7x6jAQ4sfNP6462bfrv16dEDhOsjfn914dgUOIgb1C/iHK24t7/k/P4CzXyz2HFmX4XbPM6DiCGNgO4x+iwFHN4CzXc/lyJbcoDBHI9Vy0CP11u/HqKBxniwG+/4yHOOzTpZwquFDN8B9cr+U1BOghRvYNnppWQR6n2suzcLqhXLPM/gKMYnChSs3FoMVSLZYqNY0hUCYGKA1TaRRhQ9/C9YE2isTqKayLxcAQKlmodVJGADYemVp04BHKxUhxjIfHj2s5vEPGjqUMyyxgIuViAC3keQKmpVbION20YbkwRUCdGFqqQCx7bEqnGzI33R4wRUCdGJjhaWZTRRsBJLMjU8qwHBuOE6gTA2gTKPQTOE4Lb8lsumnDsjZRU6gXI+UCtfDW+hKbbprwsXlJIvVipISuNorACS1ytHPAKlIE1IsBNNNaFE6kDJmSVaYIaCOG1qqSWSe0VNKMh/EC2ohR06q2gwU1ovIEr4A2YtS0qutEqajufKaCVRMxQEmrshOlojZIETCuWrM3d0KUTKpCTmjDbMgapAhoJ0bJdDvkRK6oodVxIaMYzW4t5rRqzIlcUXkhV8G4IZx1q0Aip1UlJ3JEje2oFdBWjJQ9DmuSE6mixqKrkH2I0fT2orbHAdOcSE0VKbpysXfUmj6oou1xwFKcSEmVir0L5vJB7sKnpEqKEykLs8LtvRAXrhjZ904kpFRBiqQ4oYlasb0XYuv5jKZP+kl32HOW2TiW65fcYU/gyBUDb/DwAUtifI7cinEQOGApjJ3nJIYRZKnPdY39BYuR9ZzGjJjeTnLFaDrf2BGmB2K3xDCCNFnB7hCnkhhLGlW8t5G2xFhYdEwdpyQG+o65v2EwDaeiGEaQOaeLlx6iGEaQOb3ga8EaLCiEKIYRBG8zNl23PBFoVK+PYLyCEGa6vgsfBGAwq8a7NNFocPEKNJwvJTzX6TtSAVuZ4nvvIbyCHEzE2I+HYEh+bIHwn2iY8eMifH25eAUtMCLxV1YAbkvYr6SkYB11v6YCksI+l/8F/wViNzEI/AAAAABJRU5ErkJggg==" sap2010:WorkflowViewState.IdRef="TargetApp_2" InformativeScreenshot="0ee85aee813b8297dc72eb3db1901ad8.jpg" Reference="ICNqXF2OvEyZ765u2w4i8Q/NEfsKgZCsE6fnXT7jR8ddA" Selector="&lt;html app='chrome.exe' title='윈들리' /&gt;" Url="[in_str_page]" Version="V2" />
       </uix:NApplicationCard.TargetApp>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">

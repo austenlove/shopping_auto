@@ -126,7 +126,7 @@
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="_03_title" sap:VirtualizedContainerService.HintSize="768.4000000000001,4323.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="_03_title" sap:VirtualizedContainerService.HintSize="774,4323.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -134,6 +134,7 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="02_page_info - Invoke Workflow File (Jobs\02_page_info.xaml)" sap:VirtualizedContainerService.HintSize="651.2,180.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Jobs\02_page_info.xaml">
       <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="in_str_page">https://global.windly.cc/view2/interested-product?page=5</InArgument>
         <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dt_transaction">[io_dt_transaction]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
@@ -230,7 +231,7 @@
                                   <uix:NGetText.Target>
                                     <uix:TargetAnchorable BrowserURL="global.windly.cc/view2/interested-product/234047415" ContentHash="1EAkANtei0W8CpxyBebWpg" DesignTimeRectangle="392, 677, 1205, 24" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='sortable-option-21433_0' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='sortable-option-21433_0' tag='INPUT' type='text' class='option_input_21433:34566317900 css-23fa9p e7pwzwn2' placeholder='옵션명을 입력하세요' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="e00091d0-6914-430e-82b0-1642a1c5e196" ImageBase64="" InformativeScreenshot="82cca402e96bf7554822cd9fdd3c7b14.png" Reference="ICNqXF2OvEyZ765u2w4i8Q/2aVQrBid00KziihgXzjZbw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='윈들리' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                       <uix:TargetAnchorable.Anchors>
-                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                           <uix:Target DesignTimeRectangle="298, 509, 1382, 25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' value='크기' /&gt;" Guid="23bd6283-88ef-4f82-a23e-1cc6d43e1129" ImageBase64="" SearchSteps="Selector" />
                                         </scg:List>
                                       </uix:TargetAnchorable.Anchors>
@@ -374,7 +375,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:ForEachRow>
-          <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[io_dt_transaction]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="616,143.2" sap2010:WorkflowViewState.IdRef="WriteRange_3" SheetName="[Now.ToString(&quot;MM-dd&quot;)]" WorkbookPath="C:\Users\auste\OneDrive\Documents\UiPath\shopping_auto\Data\Output\result.xlsx" />
+          <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[io_dt_transaction]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="616,143.2" sap2010:WorkflowViewState.IdRef="WriteRange_3" SheetName="[Now.ToString(&quot;MM-dd&quot;)]" WorkbookPath="Data\Output\result.xlsx" />
         </Sequence>
       </If.Then>
       <If.Else>

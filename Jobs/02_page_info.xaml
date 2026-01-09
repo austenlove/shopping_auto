@@ -110,13 +110,13 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="_02_page_info" sap:VirtualizedContainerService.HintSize="768.4000000000001,1239.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="_02_page_info" sap:VirtualizedContainerService.HintSize="774,1279.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: 윈들리" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,1216" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="f24e8885-4958-488c-9d20-901581acbb5c" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: 윈들리" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,1256" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="f24e8885-4958-488c-9d20-901581acbb5c" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
