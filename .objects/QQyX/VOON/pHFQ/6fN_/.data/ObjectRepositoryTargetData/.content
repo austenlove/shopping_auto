@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Y6LAOI3xsUGQ2epw0HfX5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="global.windly.cc/view2/interested-product/234453708" DesignTimeRectangle="298, -290, 1381, 25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='root' tag='INPUT' type='text' /&gt;" Guid="ab22d461-805e-48f6-99a0-72b7442e6bef" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='윈들리 해구대' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

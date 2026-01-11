@@ -1,0 +1,14 @@
+﻿{
+  "Name": "크기",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "GRTc77p480iLq3BfyqhZEQ",
+  "Reference": "ICNqXF2OvEyZ765u2w4i8Q/GRTc77p480iLq3BfyqhZEQ",
+  "ParentRef": "ICNqXF2OvEyZ765u2w4i8Q/pHFQiL5iekyFV6j_4_HnHw",
+  "Created": "2026-01-11T01:09:44.4386332Z",
+  "Updated": "2026-01-11T01:09:44.4386332Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
